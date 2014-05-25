@@ -1,12 +1,12 @@
 # init replacement bootstrap for Arch Linux on Digital Ocean / KVM
 
-This package replaces the init script with a script that uses kexec to boot the stock Arch Linux LTS kernel. 
+This package replaces the init script with a script that uses kexec to boot the stock Arch Linux kernel.
 
-This allows running the stock Arch Linux LTS kernel on KVM providers like Digital Ocean. 
+This allows running the stock Arch Linux kernel on KVM providers like Digital Ocean.
 
 ## Directions
 
-Build and install the package, reboot your vps/droplet. This package will install kexec-tools and the lts kernel from Arch Linux repositories. It will also remove systemd-sysvcompat. 
+Build and install the package, reboot your vps/droplet. This package will install kexec-tools and the kernel from Arch Linux repositories. It will also remove systemd-sysvcompat.
 
 ## Warning
 

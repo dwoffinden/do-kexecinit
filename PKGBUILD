@@ -9,11 +9,11 @@ pkgrel=1
 pkgdesc="init replacement bootloader for Digital Ocean"
 arch=('any')
 license=('MIT')
-depends=('kexec-tools' 'linux-lts' 'systemd')
+depends=('kexec-tools' 'linux' 'systemd')
 conflicts=('systemd-sysvcompat')
 source=('init' 
         'LICENSE')
-md5sums=('f691995b211154a65e33905682fe029e'
+md5sums=('46428d8ef571c6b6091a1318bff92380'
          '62ce522f205ff9f66b3aa6fbb8f10311')
 
 package() {
